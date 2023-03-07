@@ -1,0 +1,404 @@
+.popular {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 140px;
+  padding-bottom: 49px;
+  position: relative;
+  z-index: 2;
+  background-image: url(/images/popular-bg.png);
+  background-size: 200% 110%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  @media screen and (min-width: 480px) {
+    background-size: 135% 110%;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-size: 100% 110%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    padding-top: 40px;
+    background-size: 100% 110%;
+  }
+}
+
+.popular__head {
+  @include centered();
+  justify-content: space-between;
+}
+
+.popular__title {
+  font-size: 24px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 28px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    font-size: 48px;
+  }
+}
+
+.popular__title-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.popular__icon-star {
+  margin-left: 28px;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  width: 21px;
+  height: 21px;
+
+  @media screen and (min-width: 480px) {
+    right: 146px;
+  }
+
+  @media screen and (min-width: 768px) {
+    right: 219px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    right: 100px;
+  }
+}
+
+.popular__icon-star--puls {
+  width: 21px;
+  height: 21px;
+  margin-left: 11px;
+  animation: puls 1000ms linear infinite;
+
+  @media screen and (min-width: 480px) {
+    margin-left: 18px;
+  }
+}
+
+@keyframes puls {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.popular__text {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 41px;
+  line-height: 1.3;
+  letter-spacing: 0.065em;
+  text-transform: lowercase;
+  color: var(--secondary-text-color);
+
+  @media screen and (min-width: 480px) {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 15px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 30px;
+  }
+}
+
+.popular__products {
+  margin-top: 19px;
+  @include centered();
+  justify-content: center;
+  @include font(16px, 400, 1.3);
+  letter-spacing: 0.065em;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1000px) {
+    display: flex;
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 1920px) {
+    top: 30px;
+  }
+}
+
+.popular__icon-arrow {
+  margin-left: 20px;
+}
+
+.popular__img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 7px;
+  margin-top: 10px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 7px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    margin-top: 10px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-top: 14px;
+  }
+}
+
+.popular__img-1 {
+  background-image: url(/images/shopers.jpg);
+  width: 100%;
+  height: 210px;
+  margin-top: 0;
+
+  @media screen and (min-width: 480px) {
+    height: 263px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 262px;
+    width: 502px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    height: 347px;
+    width: 662px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 576px;
+    width: 1101px;
+  }
+}
+
+.popular__img-2 {
+  background-image: url(/images/cups.jpg);
+  width: 100%;
+  height: 144px;
+
+  @media screen and (min-width: 480px) {
+    height: 177px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 142px;
+    width: 218px;
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 1000px) {
+    height: 187px;
+    width: 288px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 312px;
+    width: 481px;
+  }
+}
+
+.popular__img-3 {
+  background-image: url(/images/thermos.jpg);
+  width: 137px;
+  height: 141px;
+
+  @media screen and (min-width: 480px) {
+    width: 216px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 113px;
+    width: 107px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    height: 149px;
+    width: 141px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 249px;
+    width: 236px;
+  }
+}
+
+.popular__img-4 {
+  background-image: url(/images/black-t-shirt.jpg);
+  width: 137px;
+  height: 141px;
+
+  @media screen and (min-width: 480px) {
+    width: 216px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 113px;
+    width: 107px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    height: 149px;
+    width: 141px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 249px;
+    width: 236px;
+  }
+}
+
+.popular__images-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.basket {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  @include centered();
+
+  @media screen and (min-width: 768px) {
+    top: -30px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    top: 115px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    top: 80px;
+  }
+}
+
+.popular__wrapper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.basket__text {
+  position: relative;
+  display: none;
+  top: -14px;
+  @include font(14px, 500, 1.06);
+  text-decoration-line: underline;
+  padding: 28px 18px;
+  background: #fafafa;
+  box-shadow: 0px 16.0566px 22px -8px rgba(82, 73, 131, 0.1),
+    0px 8.02828px 8.02828px -4.01414px rgba(26, 32, 44, 0.04);
+  border-radius: 16px;
+  margin-right: 24px;
+
+  @media screen and(min-width: 1000px) {
+    display: inline-flex;
+  }
+}
+
+.basket__link {
+  margin-left: 20px;
+  color: var(--secondary-accent-color);
+}
+
+.button__close {
+  position: absolute;
+  @include centered();
+  justify-content: center;
+  top: -7px;
+  right: -5px;
+  border: none;
+  background-color: transparent;
+}
+
+.basket__figure {
+  @include centered();
+  justify-content: center;
+  width: 99px;
+  height: 99px;
+  background: rgba(31, 171, 138, 0.36);
+  border-radius: 50%;
+}
+
+.basket__bg {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: #1fab8a;
+  border-radius: 50%;
+  @include centered();
+  justify-content: center;
+
+  &:after {
+    content: '3';
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+}
+
+.basket__price {
+  font-family: 'Montserrat';
+  @include font(17px, 500, 1.06);
+  color: #000000;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.popular__shopper {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.06;
+    margin-top: 5px;
+    margin-left: calc(100% / 4);
+  }
+
+  @media screen and (min-width: 1000px) {
+    margin-left: 30%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-top: 22px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
