@@ -358,7 +358,7 @@
   justify-content: center;
 
   &:after {
-    content: '3';
+    content: "3";
     width: 19px;
     height: 19px;
     background-color: white;
@@ -373,7 +373,7 @@
 }
 
 .basket__price {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   @include font(17px, 500, 1.06);
   color: #000000;
   margin-top: 6px;
