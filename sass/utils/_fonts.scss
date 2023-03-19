@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'ambidexter_regular';
   src: url('/fonts/ambidexter_regular.otf');
+
   font-weight: normal;
   font-style: normal;
 }
@@ -56,6 +57,10 @@
 @font-face {
   font-family: 'Gilroy';
   src: url('/fonts/Gilroy-Black.eot');
+  src: local('Gilroy Black'), local('Gilroy-Black'),
+    url('/fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Gilroy-Black.woff2') format('woff2'), url('/fonts/Gilroy-Black.woff') format('woff'),
+    url('/fonts/Gilroy-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
