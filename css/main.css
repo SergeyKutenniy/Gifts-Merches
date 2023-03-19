@@ -1501,7 +1501,7 @@ textarea {
   padding-bottom: 49px;
   position: relative;
   z-index: 2;
-  background-image: url(/images/popular-bg.png);
+  background-image: url(../images/popular-bg.png);
   background-size: 200% 110%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -1745,7 +1745,7 @@ textarea {
 }
 
 .popular__img-1 {
-  background-image: url(/images/shopers.jpg);
+  background-image: url(../images/shopers.jpg);
   width: 100%;
   height: 210px;
   margin-top: 0;
@@ -1779,7 +1779,7 @@ textarea {
 }
 
 .popular__img-2 {
-  background-image: url(/images/cups.jpg);
+  background-image: url(../images/cups.jpg);
   width: 100%;
   height: 144px;
 }
@@ -1813,7 +1813,7 @@ textarea {
 }
 
 .popular__img-3 {
-  background-image: url(/images/thermos.jpg);
+  background-image: url(../images/thermos.jpg);
   width: 137px;
   height: 141px;
 }
@@ -1846,7 +1846,7 @@ textarea {
 }
 
 .popular__img-4 {
-  background-image: url(/images/black-t-shirt.jpg);
+  background-image: url(../images/black-t-shirt.jpg);
   width: 137px;
   height: 141px;
 }
@@ -2012,7 +2012,7 @@ textarea {
 }
 
 .basket__bg:after {
-  content: "3";
+  content: '3';
   width: 19px;
   height: 19px;
   background-color: white;
@@ -2032,7 +2032,7 @@ textarea {
 }
 
 .basket__price {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 17px;
   font-weight: 500;
   line-height: 1.06;
@@ -2682,7 +2682,7 @@ textarea {
 .ideas {
   max-width: 1920px;
   margin: 0 auto;
-  background-image: url(/images/ideas-bg.png);
+  background-image: url(../images/ideas-bg.png);
   background-position: 40% 23%;
   background-size: 200% 44%;
   background-repeat: no-repeat;
@@ -3233,7 +3233,7 @@ textarea {
   margin: 0 auto;
   padding-top: 101px;
   padding-bottom: 23px;
-  background-image: url(/images/footer-bg.png);
+  background-image: url(../images/footer-bg.png);
   background-repeat: no-repeat;
   background-size: 130% 100%;
   background-position: 0 100%;
