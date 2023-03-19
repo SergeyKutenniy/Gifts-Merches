@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'ambidexter_regular';
+  src: url("/fonts/ambidexter_regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Gilroy';
   src: url("/fonts/Gilroy-Regular.eot");
   src: local("Gilroy Regular"), local("Gilroy-Regular"), url("/fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Gilroy-Regular.woff2") format("woff2"), url("/fonts/Gilroy-Regular.woff") format("woff"), url("/fonts/Gilroy-Regular.ttf") format("truetype");
